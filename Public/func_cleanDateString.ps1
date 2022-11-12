@@ -6,7 +6,7 @@ function CleanDateString {
 .PARAMETER String
     Specifies the String of what will be adjusted, input: 'Tuesday, December 21, 2021 3:58:05 PM'
 .EXAMPLE
-    Remove-StringSpecialCharacter -String "Tuesday, December 21, 2021 3:58:05 PM"
+    CleanDateString -String "Tuesday, December 21, 2021 3:58:05 PM"
     Returns "12/21/2021 3-58-05 PM"
 #>
     [CmdletBinding()]
